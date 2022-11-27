@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width, initial-scale=1.0">
+	<title>Movie Landing Page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+
+	<section>
+		<input type="checkbox" id="check">
+		<header>
+			<h2><a href="#" class="logo"><img src="pics/netflix.png" /></a></h2>
+			<div class="navigation">
+				<a href="Info.html">Info</a>
+				<a href="https://www.google.com.ph/search?q=my+neighbor+totoro+rating&sxsrf=ALiCzsbga1PLPfPhMSsUlTsCAs0NA_SY5A%3A1669542208806&ei=QDGDY_boMK_h2roPhJ-pkAk&ved=0ahUKEwj2iKyyic77AhWvsFYBHYRPCpIQ4dUDCA8&uact=5&oq=my+neighbor+totoro+rating&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgoIABBHENYEELADOgUIABCGA0oECEEYAEoECEYYAFDkBFjWDmCHFWgBcAB4AIABvwGIAdQFkgEDMC41mAEAoAEByAEIwAEB&sclient=gws-wiz-serp#wptab=s:H4sIAAAAAAAAAFWPMU_CQBzFuRpJU9EQ0ASZutgYIxwUrUjSEAcTR6Nxbo7rn-Og3JW7q8jmZ2AxrroZ_SCasDo6uPkNHNUwub2830t-eXbwiR6tteLX90e5em_Nn1_f0dxyNs6VHAI1F3DNYapL-07-VBhuZqVC1XFsPMaNw-Dgxt901jHDzeYwnUR61BTFl8Udqi6Q84acvCKGC7aVy912K9aeBcK37ZUiqpTdfOcJDYxJdQdjLgwIU0tIr06lSutMSpbAbx7jSQaKg-5OpRrplFAIz4DEniEs5CLOqOFSeJmGSCZxpIEoOgiNysBLiGAhiNrVpcfjcEl2Wie9Vts_jkn_KAgC2qYN70-Y6RAvF16fJwYUxNH_vmPtosLD6vZ45grgbNCTyjXSSCXd5cUfEuzsyUUBAAA">Ratings</a>
+				<a onclick="openpopup()">Share</a>
+			</div>
+
+			<label for="check">
+				<i class="fas fa-bars menu-btn"></i>
+				<i class="fas fa-times close-btn"></i>
+			</label>
+		</header>
+		<div class="popup" id="popup">
+			<div class="overlay"></div>
+			<div class="media-icons">
+				<div class="close-btn"onclick="closepopup()">&times;</div>
+				<h1>
+					<a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+					<a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+					<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+				</h1>
+		</div>
+		<div class="content">
+			<div class="info">
+				<h2>My Neighbor <br><span>Totoro</span></h2>
+				<p> The film—which stars the voice actors Noriko Hidaka, Chika Sakamoto, and Hitoshi Takagi—tells the story of a professor's two young daughters (Satsuki and Mei) and their interactions with friendly wood spirits in postwar rural Japan.</p>
+				<a href="https://www.youtube.com/embed/92a7Hj0ijLs" class="trailer-btn">Watch Trailer</a>
+				<a href="https://s2dfree.cc/MczozMToiNTc3Mnx8NDkuMTQ3LjE5NC40NHx8MTY2OTU0MDIwMCI7.html" class="movie-btn">Watch Movie</a>
+		</div></div>
+		<!--<div class="media-icons">
+			<a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+			<a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+			<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+		</div>-->
+	</section>
+	<script src="pop_up.js"></script>
+</body>
+</html>

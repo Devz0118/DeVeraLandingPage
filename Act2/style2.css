@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: #5c6980;
+	background-size: cover;
+	background-position: center;
+}
+.media-icons{
+	position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 250px 10px;
+}
+
+.media-icons a{
+	position: center;
+	color: #111;
+	font-size: 250px;
+	transition: 0.3s;
+	transition-property: transform;
+}
+
+.media-icons a:not(:last-child){
+	margin-right: 30px
+}
+
+.media-icons a:hover{
+	transform: scale(1.5);
+}
